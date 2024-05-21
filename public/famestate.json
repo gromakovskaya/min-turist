@@ -1,0 +1,37 @@
+[
+	{
+	"name":"Памятник Салавату Юлаеву",
+	"avatar":"https://fastly.4sqi.net/img/general/600x600/77097600_yh8FQwE0EGZIbGZ1UpCmsO0EYOa67ewdlI-Thzv00Fo.jpg",
+	"id":"1"
+	},
+
+	{
+                "name":"Мечеть Ляля Тюльпан",
+                "avatar":"https://i.ytimg.com/vi/Wj7kSid1Va8/sddefault.jpg",
+                "id":"2"
+ 	},
+
+	{
+                "name":"Фонтан 'Семь девушек'",
+                "avatar":"https://avatars.dzeninfra.ru/get-zen_doc/9429668/pub_6491b46324aa0a439de44074_6491b527d7291f01e91172b4/smart_crop_516x290",
+                "id":"3"  
+         },
+
+        {         
+                "name":"Советская площаль",
+                "avatar":"https://www.proural.info/upload/iblock/24b/1qvgvypcl2nndimwwcjoht2ckfarbz5y.jpg",
+                "id":"4"      
+          },
+
+         {
+                "name":"Монумент Дружбы",
+                "avatar":"https://api.rbsmi.ru/attachments/c21f1822481539032f079e6efd990580116a37a4/store/crop/0/0/480/320/480/320/0/58a68c91223f0de6fb9afc30c7836583b48e72fff128967a7f5f9e90a372/614b9c4d55249be83833ba2ee9b017d8.png",
+                "id":"5"     
+          },
+
+          {
+                "name":"Самолёт УУНИТ",
+                "avatar":"https://mara-d.narod.ru/olderfiles/1/537b_mig19_UFA_800.jpg",
+                "id":"6"      
+        }
+]

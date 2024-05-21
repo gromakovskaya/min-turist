@@ -1,0 +1,251 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+.navbar{
+    width: 100%;
+    height: 70 px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    
+}
+.navbar .container{    
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    list-style: none;
+    padding-right: 50px;
+    margin-bottom: 0;
+}
+.navbar-menu li{
+    
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.navbar-menu li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-menu li:hover {
+opacity: 1;
+color: darkgreen;
+font-style:italic;
+font-size: 22px;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+ .carousel-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-content-wrapper {
+    overflow: hidden;
+   margin-left: 150px;
+    width: 80%;
+    height: 600px;
+}
+
+.carousel-content {
+    display: flex;
+    transition: all 250ms linear;
+    -ms-overflow-style: none;  /* hide scrollbar in IE and Edge */
+    scrollbar-width: none;  /* hide scrollbar in Firefox */
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-content > * {
+    width: 100%;
+    height:600px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: green;
+    opacity: 0.5;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.left-arrow {
+    left: 24px;
+}
+
+.right-arrow {
+    right: 24px;
+}
+
+.full-item{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index:10;
+    overflow:auto;
+}
+.full-item > div {
+    width: 600px;
+    position: relative;
+    margin:  10% auto;
+    padding: 30px 30px;
+    background: white;
+    
+}
+
+main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+main .item{
+    width: 25%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+       
+}
+
+main .more, .full-item .more{
+   position: relative;
+   background: rgba(99, 167, 99, 0.9);
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   line-height: 35px;
+   color: white;
+   border-radius: 50%;
+   cursor: pointer;
+   margin-left: 5px;
+   transition: transform 500ms ease;
+   
+
+}
+main .more:hover, .full-item .more:hover{
+    transform: scale(1.05) translateY(-3px);
+}
+.image img, .full-item .image img{
+    height: 240px;
+    width: 100%;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    }
+.image img:hover, .full-item .image img:hover{
+    transform: scale(1.05);
+}
+
+
+
+.dropdown{
+    position: relative;
+    /*display: inline-block;*/
+}
+.dropdown-menu{
+    background-color: rgb(238, 234, 243);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 200px;
+    position: absolute;   
+    display: flex;
+    flex-flow: column;    
+    transition: all 150ms ease-in-out;
+    top: calc(100%+7px);
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.dropdown-menu--active{
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+}
+
+.dropdown a{
+    display: block;
+    padding: 7px 20px;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+}
+
+
+.btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background: none;
+    opacity: 0.6;
+}
+.btn-close:hover{
+    opacity: 1;
+}
+.dropdown-menu-link {
+    color: black;
+}
+.developers {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(99, 167, 99, 0.7);
+    opacity: 0.7;
+    z-index: -100;
+}
+.developers:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: transform 500ms ease;
+    z-index: -100;
+}
+.ContactsContent {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.famestate {
+    margin-top: 10px;
+    background-color: rgba(84, 238, 87, 0.399);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+
+}

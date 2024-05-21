@@ -1,0 +1,56 @@
+.famestateCard {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a2ef95ac;
+    display: flex;
+   justify-content: center;
+    width: 700px;
+    align-items: center;
+
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .ava1 {
+    margin-right: 20px; /* Отступ между аватаром и подписями */
+    
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding:20px;
+  }
+  .Container1{
+    padding:10px;
+    
+    
+  }
+  
+  .name1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 10px;
+    float: right;
+  }
+  
+  .detail1,
+  .detail2,
+  .detail3 {
+    color:#2e3691;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
+  }
+
+  
